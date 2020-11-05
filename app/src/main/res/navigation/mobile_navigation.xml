@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_Donations">
+
+    <fragment
+        android:id="@+id/navigation_Donations"
+        android:name="com.example.sahemproject.ui.donations.DonationsFragment"
+
+        tools:layout="@layout/fragment_donations" />
+
+    <fragment
+        android:id="@+id/navigation_Requests"
+        android:name="com.example.sahemproject.ui.requests.RequestsFragment"
+        tools:layout="@layout/fragment_requests_list" />
+
+    <fragment
+        android:id="@+id/navigation_Profile"
+        android:name="com.example.sahemproject.ui.profile.ProfileFragment"
+
+        tools:layout="@layout/fragment_profile" />
+</navigation>

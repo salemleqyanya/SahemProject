@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.sahemproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+
+      android:theme="@style/AppTheme"
+        >
+        <activity android:name=".Login.ResetPasswordActivity"></activity>
+        <activity android:name=".Profile.Settings.PhoneNumberSettingsActivity" />
+        <activity android:name=".MainActivity"
+            />
+        <activity android:name=".Profile.MYList.MyDonations.MyDonationsListActivity" />
+        <activity android:name=".Profile.MYList.MyRequests.MyRequestListActivity" />
+        <activity android:name=".Profile.MYList.MyRequests.MyDetailsRequestActivity" />
+        <activity android:name=".Profile.MYList.MyDonations.MyDonationDetailsActivity" />
+        <activity android:name=".Login.SignUpActivity" />
+        <activity android:name=".Requests.DetailsRequestActivity" />
+        <activity android:name=".Requests.AddRequestsActivity" />
+        <activity android:name=".Donations.DonationDetailsActivity" />
+        <activity android:name=".Donations.AddDonationActivity" />
+        <activity android:name=".Profile.Settings.PasswordSittingActivity" />
+        <activity android:name=".Profile.Settings.SettingActivity" />
+        <activity android:name=".Profile.Settings.NameSittingActivity" />
+        <activity android:name=".Profile.InformationActivity" />
+        <activity android:name=".Profile.Settings.EmailSettingActivity" />
+        <activity
+            android:name=".Login.SignInActivity"
+            android:label="@string/app_name"
+
+
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-xxxxxxxxxxxxxxxx~yyyyyyyyyy" />
+    </application>
+
+</manifest>

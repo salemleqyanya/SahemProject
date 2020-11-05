@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Profile.Settings.SettingActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:gravity="center"
+        android:text="parson information "
+        android:textSize="30dp"
+
+        android:textColor="#000"
+        android:layout_gravity="center"
+
+
+        android:textStyle="bold" />
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:layout_gravity="center">
+
+    <ImageView
+        android:id="@+id/userPhoto_iv"
+        android:layout_width="270dp"
+        android:layout_height="173dp"
+        android:layout_margin="5dp"
+
+android:src="@drawable/sss"
+        android:padding="5dp"
+         />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+android:onClick="pickImageB"
+        android:background="#fefefe"
+        android:layout_marginLeft="70dp"
+        android:src="@drawable/ic_camera" />
+
+</FrameLayout>
+    <Button
+        android:onClick="nameSitting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Name sitting"
+        android:layout_margin="10dp"
+        android:textSize="18sp"
+        android:padding="5dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:textStyle="bold"
+        android:textColor="#03A9F4"/>
+    <Button
+        android:onClick="emailSitting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="email sitting "
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:textStyle="bold"
+        android:textColor="#03A9F4"/>
+
+    <Button
+        android:onClick="phoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:text="Phone number sitting"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:textStyle="bold"
+        android:textColor="#03A9F4"/>
+
+    <Button
+        android:onClick="passwordSitting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="password sitting"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:textStyle="bold"
+        android:textColor="#03A9F4"/>
+
+
+
+</LinearLayout>
